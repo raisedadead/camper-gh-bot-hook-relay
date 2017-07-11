@@ -1,5 +1,5 @@
 {
-  "name": "hook-relay",
+  "name": "camper-gh-bot-hook-relay",
   "version": "1.0.0",
   "description": "Relay data recieved from a Github webhook",
   "main": "server.js",

@@ -89,7 +89,7 @@ var app = http.createServer((req, res) => {
   handler(req, res)
 })
 .listen(port, () => {
-  console.log('hook-relay listening on port', port)
+  console.log('camper-gh-bot-hook-relay listening on port', port)
 })
 
 setInterval(() => app.emit('sse', 'ping'), 57000);
